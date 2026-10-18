@@ -1,0 +1,7 @@
+{
+  "versao": "0.1.5",
+  "arquivo": "DegravaIA-atualizacao-0.1.5.zip",
+  "sha256": "ed90b995929c6be4b63309b2497ef960ad2a5f50ce2e02072c0ba33aef0266da",
+  "tamanho": 157864,
+  "novidades": "Primeira versão com atualização automática publicada.\n- Barra de importação com porcentagem, etapa, tempo passado e quanto falta.\n- Correção: a importação não fica mais parada na \"Segunda escuta\" depois de salvar.\n- Botão Excluir em Seus projetos; soltar o arquivo em qualquer parte da página.\n- Opção \"Não há palavra aqui\" nas marcações [ininteligível]."
+}

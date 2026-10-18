@@ -1,7 +1,7 @@
 {
-  "versao": "0.1.5",
-  "arquivo": "DegravaIA-atualizacao-0.1.5.zip",
-  "sha256": "ed90b995929c6be4b63309b2497ef960ad2a5f50ce2e02072c0ba33aef0266da",
-  "tamanho": 157864,
-  "novidades": "Primeira versão com atualização automática publicada.\n- Barra de importação com porcentagem, etapa, tempo passado e quanto falta.\n- Correção: a importação não fica mais parada na \"Segunda escuta\" depois de salvar.\n- Botão Excluir em Seus projetos; soltar o arquivo em qualquer parte da página.\n- Opção \"Não há palavra aqui\" nas marcações [ininteligível]."
+  "versao": "0.1.6",
+  "arquivo": "DegravaIA-atualizacao-0.1.6.zip",
+  "sha256": "6b7a65e6698a8f8862c48727029bedeb5600af30f3284e8149dbe26daf451d0e",
+  "tamanho": 159358,
+  "novidades": "Correção: a janela do DegravaIA podia fechar sozinha depois de uma importação, deixando a tela sem conexão. Agora o programa se recupera sozinho em poucos segundos, e tudo fica anotado no arquivo registro.txt, na pasta do DegravaIA."
 }

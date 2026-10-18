@@ -1,7 +1,7 @@
 {
-  "versao": "0.1.8",
-  "arquivo": "DegravaIA-atualizacao-0.1.8.zip",
-  "sha256": "6fec0d09112d4e688bff54ac403fefe68a7de418cdc2cf403777679128df2770",
-  "tamanho": 161594,
-  "novidades": "Novo botão \"Anterior\" em Decisões pendentes, para voltar à pendência de antes.\nNovo botão \"Atualizações\" no topo da página inicial, para procurar uma versão nova na hora."
+  "versao": "0.1.9",
+  "arquivo": "DegravaIA-atualizacao-0.1.9.zip",
+  "sha256": "bc22758a633bdc6a542d08da14ee23807f9dc6a6d2955452b822c2ebdba7389d",
+  "tamanho": 162468,
+  "novidades": "Novo botão \"Apoie o projeto\" no topo da página inicial, com a opção de doação pelo Mercado Pago. O DegravaIA continua gratuito, e doar não é necessário para usar nenhuma função.\nO botão de atualização passou a se chamar \"Buscar atualização\"."
 }

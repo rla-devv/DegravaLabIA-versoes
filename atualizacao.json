@@ -1,7 +1,7 @@
 {
-  "versao": "0.1.6",
-  "arquivo": "DegravaIA-atualizacao-0.1.6.zip",
-  "sha256": "6b7a65e6698a8f8862c48727029bedeb5600af30f3284e8149dbe26daf451d0e",
-  "tamanho": 159358,
-  "novidades": "Correção: a janela do DegravaIA podia fechar sozinha depois de uma importação, deixando a tela sem conexão. Agora o programa se recupera sozinho em poucos segundos, e tudo fica anotado no arquivo registro.txt, na pasta do DegravaIA."
+  "versao": "0.1.7",
+  "arquivo": "DegravaIA-atualizacao-0.1.7.zip",
+  "sha256": "5b0ed27fa60109dd8d0c419a327a834cacb3b3c0308d1eae47ae6b3a6b2a2608",
+  "tamanho": 160924,
+  "novidades": "Novo: \"Juntar com...\" no painel de Interlocutores, para quando a IA separar a mesma pessoa em duas (por exemplo, quando a entonação muda). Junta todas as falas de uma vez e pode ser desfeito.\nQuando uma voz tem muito pouca fala, o painel avisa que pode ser a mesma pessoa e oferece ouvir e juntar."
 }

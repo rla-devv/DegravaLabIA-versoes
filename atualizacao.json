@@ -1,7 +1,7 @@
 {
-  "versao": "0.1.10",
-  "arquivo": "DegravaIA-atualizacao-0.1.10.zip",
-  "sha256": "39b9927f02b69d975574d6c364c91d9e12f092cce5b92a15348457d38a0f6a7b",
-  "tamanho": 162889,
-  "novidades": "Mensagens mais claras: quando o programa da janela preta não responde, a tela explica o que fazer; sem internet, \"Buscar atualização\" avisa que não conseguiu consultar.\nInclui também: \"Apoie o projeto\", botão \"Anterior\" nas pendências, juntar interlocutores, barra de importação com tempo restante e recuperação automática se o programa cair."
+  "versao": "0.2.0",
+  "arquivo": "DegravaIA-atualizacao-0.2.0.zip",
+  "sha256": "78f3e9bf757955bb35cf0a4803bec32ca98a18d40bcd5ada520bb4dc58879bac",
+  "tamanho": 197049,
+  "novidades": "O DegravaIA agora abre numa janela própria, como um programa, sem o navegador e sem a janela preta.\nDepois de atualizar, feche o DegravaIA e abra de novo pelo abrir.bat: ele cria o atalho DegravaIA na Área de Trabalho e no Menu Iniciar. Daí em diante, use o atalho.\nA atualização instala um componente novo (pywebview) e pode levar um ou dois minutos."
 }

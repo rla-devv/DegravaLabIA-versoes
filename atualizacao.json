@@ -1,7 +1,7 @@
 {
-  "versao": "0.1.7",
-  "arquivo": "DegravaIA-atualizacao-0.1.7.zip",
-  "sha256": "5b0ed27fa60109dd8d0c419a327a834cacb3b3c0308d1eae47ae6b3a6b2a2608",
-  "tamanho": 160924,
-  "novidades": "Novo: \"Juntar com...\" no painel de Interlocutores, para quando a IA separar a mesma pessoa em duas (por exemplo, quando a entonação muda). Junta todas as falas de uma vez e pode ser desfeito.\nQuando uma voz tem muito pouca fala, o painel avisa que pode ser a mesma pessoa e oferece ouvir e juntar."
+  "versao": "0.1.8",
+  "arquivo": "DegravaIA-atualizacao-0.1.8.zip",
+  "sha256": "6fec0d09112d4e688bff54ac403fefe68a7de418cdc2cf403777679128df2770",
+  "tamanho": 161594,
+  "novidades": "Novo botão \"Anterior\" em Decisões pendentes, para voltar à pendência de antes.\nNovo botão \"Atualizações\" no topo da página inicial, para procurar uma versão nova na hora."
 }

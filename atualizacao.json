@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.5",
-  "arquivo": "DegravaIA-atualizacao-0.2.5.zip",
-  "sha256": "4452af3b820a4dcf2ccd6f3d6059c0e530796fc40e57105131d4eefb9e8e6a72",
-  "tamanho": 382026,
-  "novidades": "Layout mais compacto e limpo: tudo menor, sem perder informações.\nApoie o projeto, Buscar atualização e o tema agora são botões de ícone no topo; Apoie e Atualização abrem uma janelinha logo abaixo do botão."
+  "versao": "0.2.6",
+  "arquivo": "DegravaIA-atualizacao-0.2.6.zip",
+  "sha256": "e703f1fbf36cfe52108a61bf3c6cb83877af2f680d9b93c713e8dff130385f5a",
+  "tamanho": 381993,
+  "novidades": "Topo da tela no mesmo padrão dos outros apps da RLA.dev: botões Apoie o projeto, Buscar atualização e Tema, com ícone e texto."
 }

@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.13",
-  "arquivo": "DegravaIA-atualizacao-0.3.13.zip",
-  "sha256": "a6866fe74ec0494e90b16c6a94cfd2c18d7eb13acf3b3c8678fbbf69976dc342",
-  "tamanho": 481108,
-  "novidades": "As perguntas do app (excluir projeto, juntar interlocutores e outras) agora aparecem no visual do Degrava IA, no lugar das caixas cinzas do navegador."
+  "versao": "0.3.14",
+  "arquivo": "DegravaIA-atualizacao-0.3.14.zip",
+  "sha256": "20596782d1940a66ce88b1d058d580cd9e63f4c8dc6b9d3f00f61b1743bda9c0",
+  "tamanho": 481743,
+  "novidades": "As janelas de aviso do app ficaram mais destacadas, e a busca de atualização mostra o resultado com um ícone e uma cor para cada caso."
 }

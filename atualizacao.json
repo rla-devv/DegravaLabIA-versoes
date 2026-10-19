@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.10",
-  "arquivo": "DegravaIA-atualizacao-0.3.10.zip",
-  "sha256": "5d9028f76603cef6df69c63a1c54615b0bad45da2f51e15d38f0a621a5c11ecc",
-  "tamanho": 476700,
-  "novidades": "Instalação: ao extrair o zip, o Degrava IA fica numa pasta só, sem uma pasta dentro da outra."
+  "versao": "0.3.11",
+  "arquivo": "DegravaIA-atualizacao-0.3.11.zip",
+  "sha256": "8328c1461beb00bc62e32fac5300dff2ea39a842571bbe5dba9db48240c46720",
+  "tamanho": 480442,
+  "novidades": "As próximas atualizações vão acontecer sem fechar o Degrava IA: a tela mostra cada etapa e volta sozinha na versão nova. Para isso valer, feche o app e abra de novo uma vez depois de atualizar."
 }

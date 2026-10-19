@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.6",
-  "arquivo": "DegravaIA-atualizacao-0.3.6.zip",
-  "sha256": "81725ab43406a7bb34c7f90d14b9b5a65730202df172c2086eb5beb88d225265",
-  "tamanho": 473868,
-  "novidades": "Na revisão, a velocidade escolhida volta a ficar destacada em verde e o texto transcrito volta à letra do Windows, mais confortável para ler e corrigir."
+  "versao": "0.3.7",
+  "arquivo": "DegravaIA-atualizacao-0.3.7.zip",
+  "sha256": "4237030c3e6f0db1bc56c1fd2d58ea49df2fd9aeddf84e1598e70d09dab766a9",
+  "tamanho": 473918,
+  "novidades": "O atalho dentro da pasta do app agora se chama \"Abrir Degrava IA\". Ele troca o antigo sozinho na próxima vez que você abrir o app."
 }

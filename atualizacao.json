@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.9",
-  "arquivo": "DegravaIA-atualizacao-0.3.9.zip",
-  "sha256": "8ec2c16713db6e01530c62e378ba3da0811ac46ac7563e58d2208b39af7fd50f",
-  "tamanho": 476178,
-  "novidades": "Novo botão \"Copiar\" nos detalhes técnicos da importação: se der erro, ele copia o texto inteiro para você colar numa mensagem ao suporte."
+  "versao": "0.3.10",
+  "arquivo": "DegravaIA-atualizacao-0.3.10.zip",
+  "sha256": "5d9028f76603cef6df69c63a1c54615b0bad45da2f51e15d38f0a621a5c11ecc",
+  "tamanho": 476700,
+  "novidades": "Instalação: ao extrair o zip, o Degrava IA fica numa pasta só, sem uma pasta dentro da outra."
 }

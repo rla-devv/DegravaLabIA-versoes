@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.0",
-  "arquivo": "DegravaIA-atualizacao-0.3.0.zip",
-  "sha256": "7237ef082f5570314c88aae30a9de78f31790dd5011a7df907dbe2f428e5f285",
-  "tamanho": 333860,
-  "novidades": "Pasta do Degrava IA mais limpa: agora tem só o \"Degrava IA.bat\" (instala na primeira vez e depois abre), o LEIA-ME.txt e as pastas do programa. Arquivos de desenvolvimento saíram do pacote.\nDepois de atualizar, feche o Degrava IA e abra de novo pelo atalho da Área de Trabalho."
+  "versao": "0.3.1",
+  "arquivo": "DegravaIA-atualizacao-0.3.1.zip",
+  "sha256": "16083bc953cd73261814d15cf893ddfff7344ad601420d45217e1412d3e792a7",
+  "tamanho": 335119,
+  "novidades": "Instalação mais clara: o download dos modelos mostra quanto já baixou, a velocidade e quanto falta."
 }

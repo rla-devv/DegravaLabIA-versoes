@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.11",
-  "arquivo": "DegravaIA-atualizacao-0.3.11.zip",
-  "sha256": "8328c1461beb00bc62e32fac5300dff2ea39a842571bbe5dba9db48240c46720",
-  "tamanho": 480442,
-  "novidades": "As próximas atualizações vão acontecer sem fechar o Degrava IA: a tela mostra cada etapa e volta sozinha na versão nova. Para isso valer, feche o app e abra de novo uma vez depois de atualizar."
+  "versao": "0.3.12",
+  "arquivo": "DegravaIA-atualizacao-0.3.12.zip",
+  "sha256": "494d049631e9aac8f3c55138db4f9b79a430b51b32dc7258ad7f13d004f05afe",
+  "tamanho": 480445,
+  "novidades": "Ao clicar em \"Atualizar agora\", não aparece mais uma segunda pergunta por cima: o app já começa a atualizar."
 }

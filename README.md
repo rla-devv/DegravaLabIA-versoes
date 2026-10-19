@@ -1,6 +1,6 @@
-# DegravaIA — versões
+# Degrava IA — versões
 
-Pacotes da atualização automática do DegravaIA. Não há código-fonte aqui.
+Pacotes da atualização automática do Degrava IA. Não há código-fonte aqui.
 
 - `atualizacao.json`: a versão mais recente, o SHA-256 do pacote e as novidades
   (é o que o app consulta);

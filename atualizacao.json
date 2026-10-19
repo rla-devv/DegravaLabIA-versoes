@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.7",
-  "arquivo": "DegravaIA-atualizacao-0.2.7.zip",
-  "sha256": "254d9c16afdf46eb7ebf600f867b5baf0a1dbbc4950823f2fba141a68ffe5167",
-  "tamanho": 382050,
-  "novidades": "Botão de tema igual ao dos outros apps da RLA.dev."
+  "versao": "0.2.8",
+  "arquivo": "DegravaIA-atualizacao-0.2.8.zip",
+  "sha256": "3eac7041fad8c99a5b1ff73fd70dd5c604c79f8a26adc06cab2826961d18ba3b",
+  "tamanho": 382437,
+  "novidades": "O app agora se chama Degrava IA, no mesmo padrão dos outros apps da RLA.dev (como o Realce IA). O atalho da Área de Trabalho também é renomeado na próxima vez que você abrir o app."
 }

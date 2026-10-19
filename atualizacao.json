@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.3",
-  "arquivo": "DegravaIA-atualizacao-0.2.3.zip",
-  "sha256": "fc1bf231701a60b881a54770c6f281dc088d2a8de9a003b87e2ea992269b6e2a",
-  "tamanho": 380749,
-  "novidades": "Ajuste no ícone: cantos arredondados iguais aos dos outros apps da RLA.dev."
+  "versao": "0.2.4",
+  "arquivo": "DegravaIA-atualizacao-0.2.4.zip",
+  "sha256": "dfebcc41ff21d28baf77730dbc72ca2b3b2ac232a4057f393a494ab574aa10ef",
+  "tamanho": 381456,
+  "novidades": "O ícone novo agora aparece também no topo da tela e na bandeja do sistema (perto do relógio), com as opções Abrir e Fechar o DegravaIA. Na barra de tarefas, o DegravaIA aparece com o próprio ícone."
 }

@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.2",
-  "arquivo": "DegravaIA-atualizacao-0.2.2.zip",
-  "sha256": "e700f93700d41e94379ed554343e7f945e31338cbf272b1689c4375744db93de",
-  "tamanho": 401544,
-  "novidades": "Ícone novo, no mesmo padrão visual dos outros apps da RLA.dev. Se o atalho da Área de Trabalho ainda mostrar o ícone antigo, o Windows atualiza sozinho em pouco tempo (ou depois de reiniciar o computador)."
+  "versao": "0.2.3",
+  "arquivo": "DegravaIA-atualizacao-0.2.3.zip",
+  "sha256": "fc1bf231701a60b881a54770c6f281dc088d2a8de9a003b87e2ea992269b6e2a",
+  "tamanho": 380749,
+  "novidades": "Ajuste no ícone: cantos arredondados iguais aos dos outros apps da RLA.dev."
 }

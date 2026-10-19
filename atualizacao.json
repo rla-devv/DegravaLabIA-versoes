@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.9",
-  "arquivo": "DegravaIA-atualizacao-0.2.9.zip",
-  "sha256": "9c0bf56560bf9ba2cc8fd5798ff1d343b83dbce3f74f1b2f9384277ebefe9a9b",
-  "tamanho": 382621,
-  "novidades": "Correção interna nos arquivos .bat (abrir.bat, instalar.bat e diagnostico.bat) que vieram com formato errado na versão anterior."
+  "versao": "0.2.10",
+  "arquivo": "DegravaIA-atualizacao-0.2.10.zip",
+  "sha256": "888686633a9a47c94a8bb8fb3bb4a8b0088a9e6dcd0fbcfed85840ac182e3d16",
+  "tamanho": 411071,
+  "novidades": "Correção do ícone novo na bandeja do sistema, nos atalhos e na barra de tarefas (o Windows ainda mostrava o desenho antigo)."
 }

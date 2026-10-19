@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.14",
-  "arquivo": "DegravaIA-atualizacao-0.3.14.zip",
-  "sha256": "20596782d1940a66ce88b1d058d580cd9e63f4c8dc6b9d3f00f61b1743bda9c0",
-  "tamanho": 481743,
-  "novidades": "As janelas de aviso do app ficaram mais destacadas, e a busca de atualização mostra o resultado com um ícone e uma cor para cada caso."
+  "versao": "0.3.15",
+  "arquivo": "DegravaIA-atualizacao-0.3.15.zip",
+  "sha256": "6eaa1c9ba184774dd91d49f4b4bc66b289909fb7c5f7e873e552eee1499f1de5",
+  "tamanho": 482210,
+  "novidades": "Os botões Apoie o projeto, Buscar atualização e Tema ficam sempre na linha do nome do app; os avisos (como \"projeto excluído\") aparecem embaixo da tela e somem sozinhos."
 }

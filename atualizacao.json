@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.4",
-  "arquivo": "DegravaIA-atualizacao-0.2.4.zip",
-  "sha256": "dfebcc41ff21d28baf77730dbc72ca2b3b2ac232a4057f393a494ab574aa10ef",
-  "tamanho": 381456,
-  "novidades": "O ícone novo agora aparece também no topo da tela e na bandeja do sistema (perto do relógio), com as opções Abrir e Fechar o DegravaIA. Na barra de tarefas, o DegravaIA aparece com o próprio ícone."
+  "versao": "0.2.5",
+  "arquivo": "DegravaIA-atualizacao-0.2.5.zip",
+  "sha256": "4452af3b820a4dcf2ccd6f3d6059c0e530796fc40e57105131d4eefb9e8e6a72",
+  "tamanho": 382026,
+  "novidades": "Layout mais compacto e limpo: tudo menor, sem perder informações.\nApoie o projeto, Buscar atualização e o tema agora são botões de ícone no topo; Apoie e Atualização abrem uma janelinha logo abaixo do botão."
 }

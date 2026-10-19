@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.4",
-  "arquivo": "DegravaIA-atualizacao-0.3.4.zip",
-  "sha256": "d1c56a8585595c050c12ac6d8c869a09cffa85f100e7d80f20c1105a49376e76",
-  "tamanho": 339794,
-  "novidades": "Agora há um atalho \"Abrir o Degrava IA\" dentro da pasta do app, para saber em que clicar ao abrir a pasta. Ele aparece sozinho na próxima vez que você abrir o app."
+  "versao": "0.3.5",
+  "arquivo": "DegravaIA-atualizacao-0.3.5.zip",
+  "sha256": "52aa742ce06fb6658e8062080fded8ef94824a90468c2bbcf6b150b6314de726",
+  "tamanho": 473667,
+  "novidades": "Visual novo, no padrão dos apps da RLA.dev: cores, letras e botões mais claros, tema claro e escuro que segue o do computador, e os avisos de privacidade, apoio e atualização em janelas próprias. Nada muda no funcionamento."
 }

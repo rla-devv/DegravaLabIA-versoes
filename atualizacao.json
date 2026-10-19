@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.1",
-  "arquivo": "DegravaIA-atualizacao-0.2.1.zip",
-  "sha256": "bf93ea8ebba81b861ff63723531b712590d052f5b2e8a2b29659cbcd9e0f528e",
-  "tamanho": 198675,
-  "novidades": "Novo campo \"Vocabulário\" na importação: digite nomes de pessoas, lugares e termos que aparecem no áudio (ex.: Cauã, Santo Ângelo) para o programa escrevê-los do jeito certo com mais frequência. Use só quando houver nomes assim: a lista também muda um pouco o restante da transcrição."
+  "versao": "0.2.2",
+  "arquivo": "DegravaIA-atualizacao-0.2.2.zip",
+  "sha256": "e700f93700d41e94379ed554343e7f945e31338cbf272b1689c4375744db93de",
+  "tamanho": 401544,
+  "novidades": "Ícone novo, no mesmo padrão visual dos outros apps da RLA.dev. Se o atalho da Área de Trabalho ainda mostrar o ícone antigo, o Windows atualiza sozinho em pouco tempo (ou depois de reiniciar o computador)."
 }

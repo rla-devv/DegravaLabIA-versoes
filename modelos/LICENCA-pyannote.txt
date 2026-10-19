@@ -1,0 +1,9 @@
+Modelo de identificação de interlocutores usado no Degrava IA
+
+pyannote/speaker-diarization-community-1
+https://huggingface.co/pyannote/speaker-diarization-community-1
+Autores: pyannote (Hervé Bredin e colaboradores), https://github.com/pyannote/pyannote-audio
+Licença: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Os arquivos do modelo estão sem alterações, na pasta hub/models--pyannote--speaker-diarization-community-1.

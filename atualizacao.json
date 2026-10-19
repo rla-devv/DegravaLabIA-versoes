@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.10",
-  "arquivo": "DegravaIA-atualizacao-0.2.10.zip",
-  "sha256": "888686633a9a47c94a8bb8fb3bb4a8b0088a9e6dcd0fbcfed85840ac182e3d16",
-  "tamanho": 411071,
-  "novidades": "Correção do ícone novo na bandeja do sistema, nos atalhos e na barra de tarefas (o Windows ainda mostrava o desenho antigo)."
+  "versao": "0.3.0",
+  "arquivo": "DegravaIA-atualizacao-0.3.0.zip",
+  "sha256": "7237ef082f5570314c88aae30a9de78f31790dd5011a7df907dbe2f428e5f285",
+  "tamanho": 333860,
+  "novidades": "Pasta do Degrava IA mais limpa: agora tem só o \"Degrava IA.bat\" (instala na primeira vez e depois abre), o LEIA-ME.txt e as pastas do programa. Arquivos de desenvolvimento saíram do pacote.\nDepois de atualizar, feche o Degrava IA e abra de novo pelo atalho da Área de Trabalho."
 }

@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.3",
-  "arquivo": "DegravaIA-atualizacao-0.3.3.zip",
-  "sha256": "43164f1624578caf1d68b8c0d1eb8448ced4909650910e1b3a15edd3d04a26aa",
-  "tamanho": 339067,
-  "novidades": "Instalação nova com aparência mais clara. Nada muda no uso do app."
+  "versao": "0.3.4",
+  "arquivo": "DegravaIA-atualizacao-0.3.4.zip",
+  "sha256": "d1c56a8585595c050c12ac6d8c869a09cffa85f100e7d80f20c1105a49376e76",
+  "tamanho": 339794,
+  "novidades": "Agora há um atalho \"Abrir o Degrava IA\" dentro da pasta do app, para saber em que clicar ao abrir a pasta. Ele aparece sozinho na próxima vez que você abrir o app."
 }

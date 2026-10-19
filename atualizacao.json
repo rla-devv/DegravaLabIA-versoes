@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.7",
-  "arquivo": "DegravaIA-atualizacao-0.3.7.zip",
-  "sha256": "4237030c3e6f0db1bc56c1fd2d58ea49df2fd9aeddf84e1598e70d09dab766a9",
-  "tamanho": 473918,
-  "novidades": "O atalho dentro da pasta do app agora se chama \"Abrir Degrava IA\". Ele troca o antigo sozinho na próxima vez que você abrir o app."
+  "versao": "0.3.8",
+  "arquivo": "DegravaIA-atualizacao-0.3.8.zip",
+  "sha256": "4adc6ea66a9384d84182b729cdb04774d8f4f3b0d67bb60ee4162d60ddb7685c",
+  "tamanho": 475706,
+  "novidades": "Correção: se o download do modelo de transcrição tiver sido interrompido na instalação, o app agora percebe e baixa de novo só o que falta (dois cliques no \"Degrava IA.bat\"). Antes, a importação parava com erro."
 }

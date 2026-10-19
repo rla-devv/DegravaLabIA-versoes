@@ -1,7 +1,7 @@
 {
-  "versao": "0.2.8",
-  "arquivo": "DegravaIA-atualizacao-0.2.8.zip",
-  "sha256": "3eac7041fad8c99a5b1ff73fd70dd5c604c79f8a26adc06cab2826961d18ba3b",
-  "tamanho": 382437,
-  "novidades": "O app agora se chama Degrava IA, no mesmo padrão dos outros apps da RLA.dev (como o Realce IA). O atalho da Área de Trabalho também é renomeado na próxima vez que você abrir o app."
+  "versao": "0.2.9",
+  "arquivo": "DegravaIA-atualizacao-0.2.9.zip",
+  "sha256": "9c0bf56560bf9ba2cc8fd5798ff1d343b83dbce3f74f1b2f9384277ebefe9a9b",
+  "tamanho": 382621,
+  "novidades": "Correção interna nos arquivos .bat (abrir.bat, instalar.bat e diagnostico.bat) que vieram com formato errado na versão anterior."
 }

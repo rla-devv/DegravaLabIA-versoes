@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.2",
-  "arquivo": "DegravaIA-atualizacao-0.3.2.zip",
-  "sha256": "3c072fdf33e91e9ac960a8290d1372cc4f3ef239c391b796f59022321266f445",
-  "tamanho": 338625,
-  "novidades": "Instalação nova com um arquivo só: o DegravaIA.zip agora tem só o Degrava IA.bat, que baixa o resto na primeira vez. Nada muda em quem já tem o app instalado."
+  "versao": "0.3.3",
+  "arquivo": "DegravaIA-atualizacao-0.3.3.zip",
+  "sha256": "43164f1624578caf1d68b8c0d1eb8448ced4909650910e1b3a15edd3d04a26aa",
+  "tamanho": 339067,
+  "novidades": "Instalação nova com aparência mais clara. Nada muda no uso do app."
 }

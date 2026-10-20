@@ -1,8 +1,9 @@
-# Degrava IA — versões
+# Degrava Lab — versões
 
-Pacotes da instalação e da atualização automática do Degrava IA. Não há código-fonte aqui.
+Pacotes da instalação e da atualização automática do Degrava Lab. Não há código-fonte aqui.
 
-- `DegravaIA.zip`: a instalação (só o `Degrava IA.bat`, que baixa o resto);
+- `DegravaLab.zip`: a instalação (só o `Degrava Lab.bat`, que baixa o resto); `DegravaIA.zip`
+  é a mesma, com o nome antigo do app;
 - `atualizacao.json`: a versão mais recente, o SHA-256 do pacote e as novidades
   (é o que o app consulta);
 - `versoes/`: o pacote de código de cada versão;

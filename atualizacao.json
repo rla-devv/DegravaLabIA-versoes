@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.18",
-  "arquivo": "DegravaIA-atualizacao-0.3.18.zip",
-  "sha256": "9add37d269061bfec2316028c4ee0b236affef94e58397608ad2f445f2b47e7d",
-  "tamanho": 481533,
-  "novidades": "Arquivos internos mais enxutos. Nada muda no uso do app."
+  "versao": "0.3.19",
+  "arquivo": "DegravaIA-atualizacao-0.3.19.zip",
+  "sha256": "7fa20cd8a5b94cc26deee12e8570595ee4e9c2e26d1abe72bbc3f110207eb829",
+  "tamanho": 481703,
+  "novidades": "O app agora se chama Degrava Lab. Os atalhos são renomeados sozinhos; seus projetos continuam onde estão."
 }

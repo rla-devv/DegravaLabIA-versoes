@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.24",
-  "arquivo": "DegravaIA-atualizacao-0.3.24.zip",
-  "sha256": "dac0d1d5b09fa476f35a8aa0f48276948c65bfa8c468010f526a8cbe44a23e74",
-  "tamanho": 481994,
-  "novidades": "O app passa a abrir no tema escuro. Quem escolheu o tema claro continua com ele."
+  "versao": "0.3.25",
+  "arquivo": "DegravaIA-atualizacao-0.3.25.zip",
+  "sha256": "58f66167b8f68283d33fa73d55c481a61e15d956cb6eaa851566c13fff3b4d9f",
+  "tamanho": 481985,
+  "novidades": "Cores novas, nos tons de azul dos apps da RLA.dev."
 }

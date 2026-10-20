@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.23",
-  "arquivo": "DegravaIA-atualizacao-0.3.23.zip",
-  "sha256": "9c768e24f09c1cb10974632f39c6379e4b227fd6afe9b5f6fa81cd8b5c81619d",
-  "tamanho": 482130,
-  "novidades": "Correções e melhorias."
+  "versao": "0.3.24",
+  "arquivo": "DegravaIA-atualizacao-0.3.24.zip",
+  "sha256": "dac0d1d5b09fa476f35a8aa0f48276948c65bfa8c468010f526a8cbe44a23e74",
+  "tamanho": 481994,
+  "novidades": "O app passa a abrir no tema escuro. Quem escolheu o tema claro continua com ele."
 }

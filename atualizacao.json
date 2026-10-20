@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.21",
-  "arquivo": "DegravaIA-atualizacao-0.3.21.zip",
-  "sha256": "52f6b37c9a78344572c467414642f710b4027685e88cbe912aa7137c243843a9",
-  "tamanho": 481770,
-  "novidades": "Ajuste no LEIA-ME com o nome novo do app."
+  "versao": "0.3.22",
+  "arquivo": "DegravaIA-atualizacao-0.3.22.zip",
+  "sha256": "64d86c8b93f2e3eb16188fcce62eb66b8a855abb49a7771597f3158fe82daee5",
+  "tamanho": 481815,
+  "novidades": "O instalador agora se chama \"Instalar Degrava Lab IA.bat\"."
 }

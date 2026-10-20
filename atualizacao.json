@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.22",
-  "arquivo": "DegravaIA-atualizacao-0.3.22.zip",
-  "sha256": "64d86c8b93f2e3eb16188fcce62eb66b8a855abb49a7771597f3158fe82daee5",
-  "tamanho": 481815,
-  "novidades": "O instalador agora se chama \"Instalar Degrava Lab IA.bat\"."
+  "versao": "0.3.23",
+  "arquivo": "DegravaIA-atualizacao-0.3.23.zip",
+  "sha256": "9c768e24f09c1cb10974632f39c6379e4b227fd6afe9b5f6fa81cd8b5c81619d",
+  "tamanho": 482130,
+  "novidades": "Correções e melhorias."
 }

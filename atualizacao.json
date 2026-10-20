@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.15",
-  "arquivo": "DegravaIA-atualizacao-0.3.15.zip",
-  "sha256": "6eaa1c9ba184774dd91d49f4b4bc66b289909fb7c5f7e873e552eee1499f1de5",
-  "tamanho": 482210,
-  "novidades": "Os botões Apoie o projeto, Buscar atualização e Tema ficam sempre na linha do nome do app; os avisos (como \"projeto excluído\") aparecem embaixo da tela e somem sozinhos."
+  "versao": "0.3.16",
+  "arquivo": "DegravaIA-atualizacao-0.3.16.zip",
+  "sha256": "5fcda6d3f74b2e23cd16bf73c26723eb2dba8ffeae49edd4028428cd4319e719",
+  "tamanho": 482190,
+  "novidades": "Texto novo no \"Apoie o projeto\"."
 }

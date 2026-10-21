@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.25",
-  "arquivo": "DegravaIA-atualizacao-0.3.25.zip",
-  "sha256": "58f66167b8f68283d33fa73d55c481a61e15d956cb6eaa851566c13fff3b4d9f",
-  "tamanho": 481985,
-  "novidades": "Cores novas, nos tons de azul dos apps da RLA.dev."
+  "versao": "0.3.26",
+  "arquivo": "DegravaIA-atualizacao-0.3.26.zip",
+  "sha256": "41ef9a3235d3fd33f81f379044e230a78309a09395dc22a1e65f8d95aef68627",
+  "tamanho": 482084,
+  "novidades": "O app passa a abrir sempre em tela maximizada."
 }

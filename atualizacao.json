@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.26",
-  "arquivo": "DegravaIA-atualizacao-0.3.26.zip",
-  "sha256": "41ef9a3235d3fd33f81f379044e230a78309a09395dc22a1e65f8d95aef68627",
-  "tamanho": 482084,
-  "novidades": "O app passa a abrir sempre em tela maximizada."
+  "versao": "0.3.27",
+  "arquivo": "DegravaIA-atualizacao-0.3.27.zip",
+  "sha256": "2bffc7418c30f2e4381cd1907c285dd4e46b1b1141ad1831fbd9ec995aad8849",
+  "tamanho": 483118,
+  "novidades": "A instalação agora acontece sempre numa pasta \"Degrava Lab IA\", mesmo abrindo o instalador direto do zip."
 }

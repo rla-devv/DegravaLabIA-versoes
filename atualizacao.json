@@ -1,7 +1,7 @@
 {
-  "versao": "0.3.35",
-  "arquivo": "DegravaIA-atualizacao-0.3.35.zip",
-  "sha256": "22995a17b0b58ba1171dc5fc74a19672f81fea3a5b961ffcc39465730d1fb194",
-  "tamanho": 487981,
-  "novidades": "Correções e melhorias."
+  "versao": "0.3.36",
+  "arquivo": "DegravaIA-atualizacao-0.3.36.zip",
+  "sha256": "c0b9ee402ba08bbf39926fddf1b90c6bca0fb47b685c89952570db0c733acac7",
+  "tamanho": 488996,
+  "novidades": "Importação que falha não deixa mais projeto pela metade na lista; mensagem clara para arquivo que não é áudio nem vídeo; exportação em Excel protegida contra fórmulas; reforços de segurança."
 }

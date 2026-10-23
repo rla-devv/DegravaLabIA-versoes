@@ -1,17 +1,18 @@
-# Release vX.Y.Z do Degrava Lab IA, criada a cada publicação (o GitHub conta os downloads de cada arquivo).
+# Release vX.Y.Z do Degrava Lab IA, criada quando uma versão nova é publicada (o GitHub conta os downloads).
 # Este arquivo vem do repositório do código (ferramentas/release-versoes.yml); o publicar.py o copia para cá.
-# Arquivos: o instalador (Degrava.Lab.IA.zip: o GitHub não aceita espaços no nome), o pacote de código da
-# versão e o modelo de interlocutores (pyannote-*, um arquivo por item de modelos/pyannote-community-1).
+# Cuidados: só o GITHUB_TOKEN deste repositório, com contents: write; nenhuma ação de terceiros (só git e
+# gh release create); nunca apaga nem reescreve uma Release: se a da versão já existe, ou se a versão não
+# é mais nova que a última Release, não faz nada.
+# Arquivos: o instalador (Degrava Lab IA.zip), o pacote de código da versão e o modelo de interlocutores
+# (pyannote-*, um arquivo por item de modelos/pyannote-community-1).
 name: Release da versão
 
 on:
   push:
     branches: [main]
     paths: [atualizacao.json]
-  workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: release
@@ -20,31 +21,41 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-
       - name: Criar a Release
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
+          # os arquivos deste commit (repositório público; sem actions/checkout)
+          git init -q repo && cd repo
+          git fetch -q --depth 1 "https://github.com/$GITHUB_REPOSITORY" "$GITHUB_SHA"
+          git checkout -q FETCH_HEAD
           versao=$(jq -r .versao atualizacao.json)
           arquivo=$(jq -r .arquivo atualizacao.json)
           [[ "$versao" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$arquivo" =~ ^[A-Za-z0-9._-]+\.zip$ ]]
           if gh release view "v$versao" >/dev/null 2>&1; then
-            echo "A Release v$versao já existe."
+            echo "A Release v$versao já existe: nada a fazer."
             exit 0
           fi
-          mkdir arquivos
-          cp "Degrava Lab IA.zip" arquivos/Degrava.Lab.IA.zip
-          cp "versoes/$arquivo" "arquivos/$arquivo"
-          lista=("arquivos/Degrava.Lab.IA.zip#Degrava Lab IA.zip (instalação)"
-                 "arquivos/$arquivo#Pacote de código $versao (atualização)")
+          ultima=$(gh release view --json tagName --jq .tagName 2>/dev/null || true)
+          if [ -n "$ultima" ] && [ "$(printf '%s\n' "${ultima#v}" "$versao" | sort -V | tail -1)" != "$versao" ]; then
+            echo "A versão $versao não é mais nova que a última Release ($ultima): nada a fazer."
+            exit 0
+          fi
+          mkdir ../arquivos
+          cp "Degrava Lab IA.zip" "../arquivos/Degrava Lab IA.zip"
+          cp "versoes/$arquivo" "../arquivos/$arquivo"
+          lista=("../arquivos/Degrava Lab IA.zip#Degrava Lab IA.zip (instalação)"
+                 "../arquivos/$arquivo#Pacote de código $versao (instalação e atualização)")
           while IFS= read -r rel; do
             nome="pyannote-${rel//\//-}"
-            cp "modelos/pyannote-community-1/$rel" "arquivos/$nome"
-            lista+=("arquivos/$nome#Modelo de interlocutores: $rel")
+            cp "modelos/pyannote-community-1/$rel" "../arquivos/$nome"
+            lista+=("../arquivos/$nome#Modelo de interlocutores: $rel")
           done < <(cd modelos/pyannote-community-1 && find . -type f | sed 's|^\./||' | sort)
-          jq -r .novidades atualizacao.json > novidades.txt
-          gh release create "v$versao" --title "Degrava Lab IA $versao" --notes-file novidades.txt \
+          jq -r .novidades atualizacao.json > ../novidades.txt
+          gh release create "v$versao" --title "Degrava Lab IA $versao" --notes-file ../novidades.txt \
             --target "$GITHUB_SHA" --latest "${lista[@]}"

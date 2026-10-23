@@ -10,7 +10,7 @@ Pacotes da instalação e da atualização automática do Degrava Lab IA. Não h
 - `modelos/`: o modelo de interlocutores pyannote/speaker-diarization-community-1,
   sem alterações (licença CC-BY-4.0; crédito em `modelos/LICENCA-pyannote.txt`).
 
-Cada versão também é uma Release (tag `vX.Y.Z`) com o instalador (`Degrava.Lab.IA.zip`), o pacote de
+Cada versão também é uma Release (tag `vX.Y.Z`) com o instalador (`Degrava Lab IA.zip`), o pacote de
 código e o modelo de interlocutores (`pyannote-*`): a instalação e a atualização baixam de lá.
 
 Publicado pelo `publicar.py` do repositório do código.

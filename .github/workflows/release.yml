@@ -1,0 +1,50 @@
+# Release vX.Y.Z do Degrava Lab IA, criada a cada publicação (o GitHub conta os downloads de cada arquivo).
+# Este arquivo vem do repositório do código (ferramentas/release-versoes.yml); o publicar.py o copia para cá.
+# Arquivos: o instalador (Degrava.Lab.IA.zip: o GitHub não aceita espaços no nome), o pacote de código da
+# versão e o modelo de interlocutores (pyannote-*, um arquivo por item de modelos/pyannote-community-1).
+name: Release da versão
+
+on:
+  push:
+    branches: [main]
+    paths: [atualizacao.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Criar a Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          versao=$(jq -r .versao atualizacao.json)
+          arquivo=$(jq -r .arquivo atualizacao.json)
+          [[ "$versao" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$arquivo" =~ ^[A-Za-z0-9._-]+\.zip$ ]]
+          if gh release view "v$versao" >/dev/null 2>&1; then
+            echo "A Release v$versao já existe."
+            exit 0
+          fi
+          mkdir arquivos
+          cp "Degrava Lab IA.zip" arquivos/Degrava.Lab.IA.zip
+          cp "versoes/$arquivo" "arquivos/$arquivo"
+          lista=("arquivos/Degrava.Lab.IA.zip#Degrava Lab IA.zip (instalação)"
+                 "arquivos/$arquivo#Pacote de código $versao (atualização)")
+          while IFS= read -r rel; do
+            nome="pyannote-${rel//\//-}"
+            cp "modelos/pyannote-community-1/$rel" "arquivos/$nome"
+            lista+=("arquivos/$nome#Modelo de interlocutores: $rel")
+          done < <(cd modelos/pyannote-community-1 && find . -type f | sed 's|^\./||' | sort)
+          jq -r .novidades atualizacao.json > novidades.txt
+          gh release create "v$versao" --title "Degrava Lab IA $versao" --notes-file novidades.txt \
+            --target "$GITHUB_SHA" --latest "${lista[@]}"
